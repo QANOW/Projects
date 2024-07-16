@@ -2,11 +2,11 @@
 Library     SeleniumLibrary
 
 *** Variables ***
-${url}              https://nayaracorporation.solides.jobs/
+${https://nayaracorporation.solides.jobs/}              
 
 *** Keywords ***
 Nova sessão
-    Open Browser                 ${url}     firefox
+    Open Browser                 ${https://nayaracorporation.solides.jobs/}     firefox
 
 Encerra sessão
     Capture Page Screenshot
